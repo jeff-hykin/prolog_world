@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+start_node="k"
+end_node="m"
+
+# arg1 overrides start
+if [ -n "$1" ]
+then
+    start_node="$1"
+fi
+
+# arg2 overrides end
+if [ -n "$2" ]
+then
+    end_node="$2"
+fi
+
+# -q means quiet
+swipl -q "$FORNIX_FOLDER/main/1_path_finder/find_path.pl" <<< "$start_node$end_node"

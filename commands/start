@@ -7,6 +7,7 @@
 #     with no arguments, this simply starts the shell
 #     with an argument, it refreshes the project connections, then runs `$commands_folder/project/$the_arguments`
 
+echo "starting up"
 # 
 # find the fornix_core
 # 

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# -q means quiet
+swipl -q "$FORNIX_FOLDER/main/2_wumpus_world/main.pl" <<< ""
