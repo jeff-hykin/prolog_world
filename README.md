@@ -19,11 +19,13 @@
 ## What specifically needs to be done? (Checklist)
 
 1. #### Get the code setup
-    - Try running this in your terminal (If you're not on Windows)
-        - `repo=https://github.com/jeff-hykin/prolog_world.git setup_or_copy="copy" eval "$(curl -fsSL git.io/JE2Zm || wget -qO- git.io/JE2Zm)"`
-    - Alternatively, try installing SWI Prolog yourself
+    - Download this code (the green "Code" button^)
+    - Open up your terminal and `cd ~/Downloads/prolog_world` (or whereever you put the unzipped code)
+    - If you're on any operating system that is not Windows => run `commands/start` and everything should be auto installed
+    - If you're on on Windows, try installing SWI Prolog manually
         - I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)
         - And here's [a link](https://www.swi-prolog.org/Download.html) to the normal install instructions
+        - (You can also use WSL or Virtualbox to run Linux, and then follow the linux instructions)
     - Protip: if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds syntax highlighting
 2. #### make sure that running `./main/1_path_finder/find_path.pl` 
     - finds the shortest path(s)
@@ -106,11 +108,13 @@ Prolog is weird, really weird.
 ## What specifically needs to be done? (Checklist)
 
 1. #### Get the code setup
-    - Try running this in your terminal (If you're not on Windows)
-        - `repo=https://github.com/jeff-hykin/prolog_world.git setup_or_copy="copy" eval "$(curl -fsSL git.io/JE2Zm || wget -qO- git.io/JE2Zm)"`
-    - Alternatively, try installing SWI Prolog yourself
+    - Download this code (the green "Code" button^)
+    - Open up your terminal and `cd ~/Downloads/prolog_world` (or whereever you put the unzipped code)
+    - If you're on any operating system that is not Windows => run `commands/start` and everything should be auto installed
+    - If you're on on Windows, try installing SWI Prolog manually
         - I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)
         - And here's [a link](https://www.swi-prolog.org/Download.html) to the normal install instructions
+        - (You can also use WSL or Virtualbox to run Linux, and then follow the linux instructions)
     - Protip: if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds syntax highlighting
 2. #### Add you content
     - add a `report.md` inside the `main/2_wumpus_world/` folder
