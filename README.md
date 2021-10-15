@@ -12,22 +12,27 @@
 ![graph](https://user-images.githubusercontent.com/17692058/137210954-20bb3c4a-3918-4dcc-a8ec-085b1a1aa0ac.png)
 
 - Every edge has a weight/distance
-- The user input tells the program a starting node and ending node
+- User input tells the program two things
+    - the name of a start node
+    - the name of an end node
 - The goal is to find the shortest path(s) (aka: path with minimum weight)
-- And then print out those paths
+- And then print out that shortest path
+- And print out the cost of that shortest path
 
 ## What specifically needs to be done? (Checklist)
 
 1. #### Get the code setup
     - Download this code (the green "Code" button^)
     - Open up your terminal and `cd ~/Downloads/prolog_world` (or whereever you put the unzipped code)
-    - If you're on any operating system that is not Windows => run `commands/start` and everything should be auto installed
+    - If you're on any operating system that is not Windows 
+        - run `commands/start` and Prolog should auto-install for you
+        - (if something goes wrong, here's [a link](https://www.swi-prolog.org/Download.html) to the manual installation)
     - If you're on on Windows, try installing SWI Prolog manually
         - I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)
         - And here's [a link](https://www.swi-prolog.org/Download.html) to the normal install instructions
         - (You can also use WSL or Virtualbox to run Linux, and then follow the linux instructions)
     - Protip: if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds syntax highlighting
-2. #### make sure that running `./main/1_path_finder/find_path.pl` 
+2. #### Make sure that running `./main/1_path_finder/find_path.pl` 
     - finds the shortest path(s)
     - prints out the path (a list of edges) and cost like this: <br> 
     ```
@@ -45,7 +50,7 @@
     cost: 8
     ```
     - (there's example code in `main.pl`, so most of that formatting is already there)
-3. #### to submit the code
+3. #### To submit the code
     - right click on the `main/` folder 
     - On MacOS => click "compress" which will make a zip file
     - On Windows => select "send to", then select "zip file"
@@ -110,12 +115,13 @@ Prolog is weird, really weird.
 1. #### Get the code setup
     - Download this code (the green "Code" button^)
     - Open up your terminal and `cd ~/Downloads/prolog_world` (or whereever you put the unzipped code)
-    - If you're on any operating system that is not Windows => run `commands/start` and everything should be auto installed
+    - If you're on any operating system that is not Windows 
+        - run `commands/start` and Prolog should auto-install for you
+        - (if something goes wrong, here's [a link](https://www.swi-prolog.org/Download.html) to the manual installation)
     - If you're on on Windows, try installing SWI Prolog manually
         - I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)
         - And here's [a link](https://www.swi-prolog.org/Download.html) to the normal install instructions
         - (You can also use WSL or Virtualbox to run Linux, and then follow the linux instructions)
-    - Protip: if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds syntax highlighting
 2. #### Add you content
     - add a `report.md` inside the `main/2_wumpus_world/` folder
         - describe your general approach (1 paragraph, although feel free to write more)
