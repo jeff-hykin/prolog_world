@@ -22,9 +22,13 @@
 ## What specifically needs to be done? (Checklist)
 
 1. #### Get the code setup
-    - Download this code (the green "Code" button^)
-    - Open up your terminal and `cd ~/Downloads/prolog_world` (or whereever you put the unzipped code)
-    - If you're on any operating system that is not Windows 
+    - Download this code
+        - there's a green "Code" button^
+        - (if you are comfortable with git, cloning the code is even better)
+        - unzip the code after downloading
+    - Open up your terminal and `cd` to wherever you unzipped the code
+        - ex: `cd ~/Downloads/prolog_world`
+    - If you're on any operating system that is not Windows
         - run `commands/start` and Prolog should auto-install for you
         - (if something goes wrong, here's [a link](https://www.swi-prolog.org/Download.html) to the manual installation)
     - If you're on on Windows, try installing SWI Prolog manually
@@ -113,8 +117,8 @@ Prolog is weird, really weird.
 ## What specifically needs to be done? (Checklist)
 
 1. #### Get the code setup
-    - Download this code (the green "Code" button^)
-    - Open up your terminal and `cd ~/Downloads/prolog_world` (or whereever you put the unzipped code)
+    - Download this code (the green "Code" button^) and unzip it
+    - Open up your terminal and `cd` `cd ~/Downloads/prolog_world` (or whereever you put the unzipped code)
     - If you're on any operating system that is not Windows 
         - run `commands/start` and Prolog should auto-install for you
         - (if something goes wrong, here's [a link](https://www.swi-prolog.org/Download.html) to the manual installation)
