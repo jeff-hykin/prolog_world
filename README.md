@@ -90,7 +90,7 @@ Prolog is weird, really weird.
 - The goal is to make an agent that gets through wumpus world maze without dying
 - Wumpus World is dark (your agent can't see anything)
 
-![WumpusWorld](https://user-images.githubusercontent.com/17692058/137552854-853fba6b-6cb2-4ff9-ae19-4b4a1071a3a8.png)
+![WumpusWorld](https://user-images.githubusercontent.com/17692058/137557916-d0179dde-e619-40ea-a965-8777c33fde23.png)
 
 - However, the agent can perceive a few things
     - Stench (wumpus is nearby)
