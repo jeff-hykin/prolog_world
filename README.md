@@ -60,13 +60,6 @@
     - On Windows => select "send to", then select "zip file"
     - On Linux => your IQ is high enough that you've probably already made the zip file, so good job
     - upload that zip
-    
-## How do I run the problem?
-
-- run `swipl -q ./main/1_path_finder/main.pl <<< 'mp'` 
-    - this will try to find a path from `m` to `p`
-- `swipl` is the Prolog command (swi-prolog -> swi-pl -> swipl)
-- if you run just `swipl` press Ctrl+D to exit/escape back to your normal terminal
 
 ## How do I understand the code?
 
@@ -77,7 +70,12 @@ Prolog is weird, really weird.
     - Then I'd look under the Tutorial tab of the [official website](https://www.swi-prolog.org/)
         - Note: "printing messages" (e.g. Hello World) is under the Advanced tab ... which gives you some idea about the weirdness of Prolog
 
-
+## How do I run the code?
+- `swipl` is the prolog command (SWI Prolog -> swi-prolog -> swi-pl -> swipl)
+- run `swipl -q ./main/1_path_finder/main.pl <<< 'mp'` 
+    - this will try to find a path from `m` to `p`
+- `swipl` is the Prolog command (swi-prolog -> swi-pl -> swipl)
+- if you run just `swipl` press Ctrl+D to exit/escape back to your normal terminal
 
 <!--  -->
 <!--  -->
