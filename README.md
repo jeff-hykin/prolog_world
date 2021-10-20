@@ -4,6 +4,11 @@
 <!--  -->
 <!--  -->
 
+TLDR:
+- [Whats the general objective?](https://github.com/jeff-hykin/prolog_world#whats-the-general-objective)
+- [What specifically needs to be done? (Checklist)](https://github.com/jeff-hykin/prolog_world#what-specifically-needs-to-be-done-checklist)
+- [How do I understand the code?](https://github.com/jeff-hykin/prolog_world#how-do-i-understand-the-code)
+- [How do I run the code?](https://github.com/jeff-hykin/prolog_world#how-do-i-run-the-code)
 
 ## Whats the general objective?
 
@@ -93,11 +98,11 @@ Prolog is weird, really weird.
 ## Whats the general objective?
 
 - The goal is to make an agent that gets through wumpus world maze without dying
-- Wumpus World is dark (your agent can't see anything)
 
 ![WumpusWorld](https://user-images.githubusercontent.com/17692058/137557916-d0179dde-e619-40ea-a965-8777c33fde23.png)
 
-- (Your agent is the robot-person in the image)
+- (Your agent ^ is the robot-person)
+- Wumpus World is dark (your agent can't see anything)
 - However, the agent can perceive a few things
     - Stench (wumpus is nearby)
     - Breeze (pit of spikes is nearby)
