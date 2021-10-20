@@ -27,9 +27,9 @@ Contents:
 ## What specifically needs to be done? (Checklist)
 
 1. #### Get the code setup
-    - Download this code
-        - there's a green "Code" button^
-        - (if you are comfortable with git, cloning the code is even better)
+    - Get the code on your machine
+        - (if you are comfortable with git, just clone the repo)
+        - [zip file download here](https://github.com/jeff-hykin/prolog_world/archive/refs/heads/master.zip) or use the green "Code" button^
         - unzip the code after downloading
     - Open up your terminal/console and `cd` to wherever you unzipped the code
         - ex: `cd ~/Downloads/prolog_world`
