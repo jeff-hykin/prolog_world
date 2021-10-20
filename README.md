@@ -78,7 +78,7 @@ Prolog is weird, really weird.
         - Note: "printing messages" (e.g. Hello World) is under the Advanced tab ... which gives you some idea about the weirdness of Prolog
 
 ## How do I run the code?
-- run `swipl -q ./main/1_path_finder/main.pl <<< 'mp'` 
+- run `swipl -q ./main/1_path_finder/find_path.pl <<< 'mp'` 
     - this will try to find a path from `m` to `p`
 - `swipl` is the Prolog command (swi-prolog -> swi-pl -> swipl)
 - if you run just `swipl` press Ctrl+D to exit/escape back to your normal terminal
