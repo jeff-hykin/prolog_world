@@ -33,8 +33,8 @@ Contents:
         - unzip the code after downloading
     - Open up your terminal/console and `cd` to wherever you unzipped the code
         - ex: `cd ~/Downloads/prolog_world`
-    - If you're on any operating system that is not Windows
-        - run `commands/start` and Prolog should auto-install for you
+    - If you're on any operating system that is not Windows:
+        - run `commands/start` in your terminal, and (although it might take a while) Prolog should auto-install for you
         - (if something goes wrong, here's [a link](https://www.swi-prolog.org/Download.html) to the manual installation)
     - If you're on on Windows, try installing SWI Prolog manually
         - I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)
