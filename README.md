@@ -78,7 +78,7 @@ Prolog is weird, really weird.
         - Note: "printing messages" (e.g. Hello World) is under the Advanced tab ... which gives you some idea about the weirdness of Prolog
 
 ## How do I run the code?
-- run `swipl -q ./main/1_path_finder/find_path.pl <<< 'mp'` 
+- run `echo "mp" | swipl -q  ./main/1_path_finder/find_path.pl` 
     - this will try to find a path from `m` to `p`
 - `swipl` is the Prolog command (swi-prolog -> swi-pl -> swipl)
 - if you run just `swipl` press Ctrl+D to exit/escape back to your normal terminal
@@ -153,7 +153,7 @@ Prolog is weird, really weird.
 ## How does the code work?
 
 - the code inside `wumpus_world.pl` randomizes the location of the wumpus/gold/pit etc each time its run
-- to run the wumpus world execute  `swipl -q ./main/2_wumpus_world/main.pl <<< ''`
+- to run the wumpus world execute  `echo "" | swipl -q ./main/2_wumpus_world/main.pl`
 - the `run_agent(Percept,Action)` inside `my_agent.pl` will be given a perception, and should decide on an action
 - the `Percept` value will be a list, specifically a list of yes/no values
     - the list will specifically be in this order: `[Stench, Breeze, Glitter, Bump, Scream]`
