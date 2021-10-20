@@ -4,11 +4,11 @@
 <!--  -->
 <!--  -->
 
-TLDR:
-- [Whats the general objective?](https://github.com/jeff-hykin/prolog_world#whats-the-general-objective)
-- [What specifically needs to be done? (Checklist)](https://github.com/jeff-hykin/prolog_world#what-specifically-needs-to-be-done-checklist)
-- [How do I understand the code?](https://github.com/jeff-hykin/prolog_world#how-do-i-understand-the-code)
+Contents:
 - [How do I run the code?](https://github.com/jeff-hykin/prolog_world#how-do-i-run-the-code)
+- [How do I understand the code?](https://github.com/jeff-hykin/prolog_world#how-do-i-understand-the-code)
+- [What specifically needs to be done? (Checklist)](https://github.com/jeff-hykin/prolog_world#what-specifically-needs-to-be-done-checklist)
+- [Whats the general objective?](https://github.com/jeff-hykin/prolog_world#whats-the-general-objective)
 
 ## Whats the general objective?
 
