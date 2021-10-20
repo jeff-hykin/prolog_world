@@ -77,6 +77,12 @@ Prolog is weird, really weird.
 - `swipl` is the Prolog command (swi-prolog -> swi-pl -> swipl)
 - if you run just `swipl` press Ctrl+D to exit/escape back to your normal terminal
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
 <!--  -->
 <!--  -->
 # For the 2nd Prolog Problem (assignment #4)
