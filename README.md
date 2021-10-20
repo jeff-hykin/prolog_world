@@ -128,7 +128,7 @@ Prolog is weird, really weird.
 ## What specifically needs to be done? (Checklist)
 
 1. #### Get the code setup
-    - Download this code (the green "Code" button^) and unzip it
+    - [Download this code](https://github.com/jeff-hykin/prolog_world/archive/refs/heads/master.zip) (the green "Code" button^) and unzip it
     - Open up your terminal and `cd` `cd ~/Downloads/prolog_world` (or whereever you put the unzipped code)
     - If you're on any operating system that is not Windows 
         - run `commands/start` and Prolog should auto-install for you
