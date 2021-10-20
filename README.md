@@ -37,6 +37,7 @@
         - (You can also use WSL or Virtualbox to run Linux, and then follow the linux instructions)
     - Protip: if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds basic syntax highlighting
 2. #### Make sure that running `./main/1_path_finder/find_path.pl` 
+    - ([how do I run the code](https://github.com/jeff-hykin/prolog_world#how-do-i-run-the-code))
     - finds the shortest path(s)
     - prints out the path (a list of edges) and cost like this: <br> 
     ```
