@@ -151,10 +151,10 @@ Prolog is weird, really weird.
 
 ## How does the code work?
 
-- in your terminal run `swipl -q ./main/2_wumpus_world/main.pl <<< ''` to get the basic system functioning
-- `run_agent(Percept,Action)` will be given a perception, and should agree on an action
-- the perception will be a list of yes/no values
-    - it'll be in this order: `[Stench, Breeze, Glitter, Bump, Scream]`
-    - for example: `[yes,no,yes,no,no]` means both the wumpus and the gold are nearby
 - the code inside `wumpus_world.pl` randomizes the location of the wumpus/gold/pit etc each time its run
+- to run the wumpus world execute  `swipl -q ./main/2_wumpus_world/main.pl <<< ''`
+- the `run_agent(Percept,Action)` inside `my_agent.pl` will be given a perception, and should decide on an action
+- the `Percept` value will be a list, specifically a list of yes/no values
+    - the list will specifically be in this order: `[Stench, Breeze, Glitter, Bump, Scream]`
+    - for example: `[yes,no,yes,no,no]` means both the wumpus and the gold are nearby
 - after 128 timesteps (if your agent hasn't died or left) the program will automatically stop
