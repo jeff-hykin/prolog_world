@@ -26,7 +26,7 @@
         - there's a green "Code" button^
         - (if you are comfortable with git, cloning the code is even better)
         - unzip the code after downloading
-    - Open up your terminal and `cd` to wherever you unzipped the code
+    - Open up your terminal/console and `cd` to wherever you unzipped the code
         - ex: `cd ~/Downloads/prolog_world`
     - If you're on any operating system that is not Windows
         - run `commands/start` and Prolog should auto-install for you
@@ -35,7 +35,7 @@
         - I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)
         - And here's [a link](https://www.swi-prolog.org/Download.html) to the normal install instructions
         - (You can also use WSL or Virtualbox to run Linux, and then follow the linux instructions)
-    - Protip: if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds syntax highlighting
+    - Protip: if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds basic syntax highlighting
 2. #### Make sure that running `./main/1_path_finder/find_path.pl` 
     - finds the shortest path(s)
     - prints out the path (a list of edges) and cost like this: <br> 
@@ -50,10 +50,10 @@
     path from: m
     path to: p
     is: [[m,z],[z,p]]
-    or: [[m,f],[f,p]]
+    is: [[m,f],[f,p]]
     cost: 8
     ```
-    - (there's example code in `main.pl`, so most of that formatting is already there)
+    - (there's example code in `main/1_path_finder/find_path.pl`, so most of that formatting is already there)
 3. #### To submit the code
     - right click on the `main/` folder 
     - On MacOS => click "compress" which will make a zip file
@@ -90,6 +90,7 @@ Prolog is weird, really weird.
 
 ![WumpusWorld](https://user-images.githubusercontent.com/17692058/137557916-d0179dde-e619-40ea-a965-8777c33fde23.png)
 
+- (Your agent is the robot-person in the image)
 - However, the agent can perceive a few things
     - Stench (wumpus is nearby)
     - Breeze (pit of spikes is nearby)
@@ -103,13 +104,13 @@ Prolog is weird, really weird.
     - `turnright`
     - `grab` (can only grab gold)
     - `shoot` (agent only has 1 arrow to shoot)
-    - `climb` (tries to climb out of the cave)
+    - `climb` (tries to climb the ladder, only works if at the entrace of the cave)
 
 - The per-instance objective is to:
     - not die (pit and wumpus cause instant death)
     - get the gold (1000 points)
-    - then go back to the start position and climb the ladder to leave the cave
-- The overall objective is to have a high score-per-timestep 
+    - then go back to the entrace and climb the ladder to leave the cave
+- The overall objective is to have a high score-per-timestep
     
 
 ## What specifically needs to be done? (Checklist)
