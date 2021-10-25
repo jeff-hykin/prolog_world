@@ -37,9 +37,15 @@ Contents:
         - run `commands/start` in your terminal, and (although it might take a while) Prolog should auto-install for you
         - (if something goes wrong, here's [a link](https://www.swi-prolog.org/Download.html) to the manual installation)
     - If you're on on Windows, try installing SWI Prolog manually
-        - I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)
-        - And here's [a link](https://www.swi-prolog.org/Download.html) to the normal install instructions
         - (You can also use WSL or Virtualbox to run Linux, and then follow the linux instructions)
+        - Here's [a link](https://eu.swi-prolog.org/download/stable)
+            - download
+            - install (click next a bunch of times)
+            - find where it installed
+                - find the shortcut then right-click => "go to location"
+                - the folder name should be `bin`
+            - add that folder to you PATH environment variable
+        - ~~I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)~~
     - Protip:
         - if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds basic syntax highlighting
 2. #### Make sure that running `./main/1_path_finder/find_path.pl` 
