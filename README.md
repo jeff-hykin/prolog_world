@@ -44,7 +44,7 @@ Contents:
             - find where it installed
                 - find the shortcut then right-click => "go to location"
                 - the folder name should be `bin`
-            - add that folder to you PATH environment variable
+            - add that folder to your PATH environment variable ([tutorial here](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/))
         - ~~I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)~~
     - Protip:
         - if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds basic syntax highlighting
