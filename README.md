@@ -113,7 +113,7 @@ Prolog is weird, really weird.
 - However, the agent can perceive a few things
     - Stench (wumpus is nearby)
     - Breeze (pit of spikes is nearby)
-    - Glitter (gold is nearby)
+    - Glitter (gold is in the current square)
     - Bump (agent's last action made them hit a wall)
     - Scream (agent's arrow hit and killed the wumpus)
 
@@ -163,5 +163,5 @@ Prolog is weird, really weird.
 - the `run_agent(Percept,Action)` inside `my_agent.pl` will be given a perception, and should decide on an action
 - the `Percept` value will be a list, specifically a list of yes/no values
     - the list will specifically be in this order: `[Stench, Breeze, Glitter, Bump, Scream]`
-    - for example: `[yes,no,yes,no,no]` means both the wumpus and the gold are nearby
+    - for example: `[yes,no,yes,no,no]` means both the wumpus is nearby and the gold is in the current square
 - after 128 timesteps (if your agent hasn't died or left) the program will automatically stop
