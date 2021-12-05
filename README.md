@@ -47,7 +47,7 @@ Contents:
             - add that folder to your PATH environment variable ([tutorial here](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/))
         - ~~I recommend the Docker version [found here](https://hub.docker.com/_/swipl/)~~
     - Protip:
-        - if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=rebornix.prolog) that adds basic syntax highlighting
+        - if you use VS Code, there's a [Prolog extension](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-prolog-syntax) that adds basic syntax highlighting
 2. #### Make sure that running `./main/1_path_finder/find_path.pl` 
     - (how do I run the code? [answer](https://github.com/jeff-hykin/prolog_world#how-do-i-run-the-code))
     - finds the shortest path(s)
