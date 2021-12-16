@@ -158,9 +158,9 @@ Prolog is weird, really weird.
 
 ## How does the code work?
 
-- the code inside `wumpus_world.pl` randomizes the location of the wumpus/gold/pit etc each time its run
 - to run the wumpus world execute  `echo "" | swipl -q ./main/2_wumpus_world/main.pl`
-- the `run_agent(Percept,Action)` inside `my_agent.pl` will be given a perception, and should decide on an action
+- the code inside `wumpus_world.pl` is set to use the same map as Figure 7.2 in the Russel & Norvig Book (its called `fig72` inside the code) 
+- the code you want to edit will be inside of `run_agent(Percept,Action)` inside `my_agent.pl`. It will be given perceptions, and should decide on an action
 - the `Percept` value will be a list, specifically a list of yes/no values
     - the list will specifically be in this order: `[Stench, Breeze, Glitter, Bump, Scream]`
     - for example: `[yes,no,yes,no,no]` means both the wumpus is nearby and the gold is in the current square
