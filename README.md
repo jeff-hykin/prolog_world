@@ -1,14 +1,14 @@
 <!--  -->
 <!--  -->
-# For the 1st Prolog Problem (assignment #3)
+# For the 1st Prolog Problem 
 <!--  -->
 <!--  -->
 
 Contents:
+- [Whats the general objective?](https://github.com/jeff-hykin/prolog_world#whats-the-general-objective)
+- [What specifically needs to be done? (Checklist)](https://github.com/jeff-hykin/prolog_world#what-specifically-needs-to-be-done-checklist)
 - [How do I run the code?](https://github.com/jeff-hykin/prolog_world#how-do-i-run-the-code)
 - [How do I understand the code?](https://github.com/jeff-hykin/prolog_world#how-do-i-understand-the-code)
-- [What specifically needs to be done? (Checklist)](https://github.com/jeff-hykin/prolog_world#what-specifically-needs-to-be-done-checklist)
-- [Whats the general objective?](https://github.com/jeff-hykin/prolog_world#whats-the-general-objective)
 
 ## Whats the general objective?
 
@@ -79,7 +79,7 @@ Contents:
 Prolog is weird, really weird.
 - If you want to figure out how to do a specific operation, like assignment, comparision, print out data, etc. I recommend taking a look at [this site](https://www.tutorialspoint.com/prolog/prolog_basic_programs.htm)
 - If you want to understand the system ("fact" vs "rule" vs "query", and all the syntax)
-    - I'd start with Dr. Ioeger's notes [here](https://people.engr.tamu.edu/ioerger/prolog.txt) 
+    - I'd start with Dr. Ioerger's notes [here](https://people.engr.tamu.edu/ioerger/prolog.txt) 
     - Then I'd look under the Tutorial tab of the [official website](https://www.swi-prolog.org/)
         - Note: "printing messages" (e.g. Hello World) is under the Advanced tab ... which gives you some idea about the weirdness of Prolog
 
@@ -98,7 +98,7 @@ Prolog is weird, really weird.
 
 <!--  -->
 <!--  -->
-# For the 2nd Prolog Problem (assignment #4)
+# For the 2nd Prolog Problem 
 <!--  -->
 <!--  -->
 
